@@ -1,0 +1,30 @@
+# 認証・機密情報
+.env
+auth.json
+
+# Python仮想環境
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 出力データ
+*.csv
+*.png
+*.html
+!rendered_attends.html
+!events_list_page.html
+
+# システム・一時ファイル
+.DS_Store
+*.tmp
+body_text.txt
+作業ログ.txt
+
+# 実験用・デバッグ用スクリプト (任意で除外)
+# もしこれらも管理したい場合は先頭の # を外してコメントアウトしてください
+# debug_*.py
+# parse_*.py
+# verify_env.py
+# grab_html_for_debug.py
