@@ -22,9 +22,12 @@ __pycache__/
 body_text.txt
 作業ログ.txt
 
-# 実験用・デバッグ用スクリプト (任意で除外)
-# もしこれらも管理したい場合は先頭の # を外してコメントアウトしてください
+# 実験用・デバッグ用スクリプト・ドキュメント (除外設定)
+debug_tool/
+documents/
+# 個別ファイル
 # debug_*.py
 # parse_*.py
 # verify_env.py
 # grab_html_for_debug.py
+
