@@ -25,6 +25,8 @@ body_text.txt
 # 実験用・デバッグ用スクリプト・ドキュメント (除外設定)
 debug_tool/
 documents/
+work/
+src/
 # 個別ファイル
 # debug_*.py
 # parse_*.py
